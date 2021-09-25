@@ -1,10 +1,10 @@
-Landing Page is a project in the Odin Project curiculum. It's a Landing Page about something.
+Landing Page is a project in the Odin Project curiculum for the HTML and CSS only part. It's a Landing Page about something, with an information panel, a famous quote and a sign up panel.
 
-The CSS is messy I will come back later and modify it. If this message is still here I'm an idiot and I never came back.
+I just use HTML and CSS with some flexbox.
 
-Maybe not the best semantics and CSS but for now I will focus on get the result the most accurate visually.
+It's maybe not the best semantics and CSS but for now I will focus on get the result the most accurate visually.
 
-When I will finish the Curiculum I will come back and modify everything.
+Note for myself : I still have issues to get an image responsive like I would, and to be exactly how I want in a flexbox. In this example it's almost alright not sure for the main photo.
 
 https://molikuc.github.io/Landing-Page/
 
