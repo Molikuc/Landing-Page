@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+a:hover {
+  color: hsl(348, 82%, 61%);
+}
+
+.first {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 4rem;
+  font-size: 15px;
+}
+
+.first:hover {
+  background-color: hsl(348, 82%, 61%);
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding-left: 10%;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.main-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.middle-text {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.information {
+  padding: 3% 10% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.square {
+  max-width: 200px;
+  text-align: center;
+}
+
+.info {
+  width: 200px;
+  height: 200px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-right: 10%;
+}
+
+.top {
+  background-color: #1f2937;
+  display: flex;
+  padding: 10%;
+}
+
+.main-top {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.main-text {
+  padding: 3% 0;
+}
+
+.photo {
+  width: 50%;
+}
+
+.quote {
+  padding: 10%;
+}
+
+.action {
+  margin: auto;
+  margin-top: 3%;
+}
+
+.btn-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  padding-inline: 6rem;
+  background-color: #3882f6;
+  border-radius: 7px;
+  color: white;
+  flex: 1;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.action-title h4 {
+  margin: 0;
+}
+
+.action-title p {
+  margin: 0;
+}
+
+.action-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  margin-right: 10rem;
+}
+
+.sign button {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 16px;
+  padding: 1rem 2rem;
+}
+
+.sign button:hover {
+  background-color: hsl(348, 82%, 61%);
+  cursor: pointer;
+}
